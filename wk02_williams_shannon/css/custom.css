@@ -1,0 +1,12 @@
+/* custom styles */
+
+header.row{
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+p{
+    margin: 5px auto;
+    padding: 2px;
+}
