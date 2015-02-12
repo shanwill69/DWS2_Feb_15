@@ -4,12 +4,16 @@ body{
     margin: 2em auto;
     padding: 0 5em 8em 5em;
 }
+
+/* header styling */
 header.row{
     margin: 10px auto;
     padding: 5px;
     text-align: center;
+    color: #fff;
     border: 2px solid #098F10;
     border-radius: 1em;
+    background-color: #73BC74;
 }
 
 p{
@@ -17,11 +21,27 @@ p{
     padding: 2px;
 }
 
+/* custom paragraph */
 #firstpar{
     border: 2px solid #098F10;
     border-radius: 1em;
+    background-color: #73BC74;
+    color: #fff;
 }
 
-footer.row{
-    text-align: center;
+/* custom table */
+#table{
+    width: 75%;
+}
+
+th, td{
+    padding: 1%;
+}
+tr.even{
+    background-color: #73BC74 ;
+    color: #fff;
+}
+
+tr:hover{
+    background-color: #5bc0de;
 }
