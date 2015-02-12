@@ -10,16 +10,38 @@
 </head>
 
 <body>
-
+<div class="container">
 <!-- header -->
-
 <header class="row">
-    <h1>Dogs</h1>
+     <h1>The Wonderful World of Dogs</h1>
 </header>
+
+<!--navigation bar -->
+
+<div class="row">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#groups">Groups</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
 <!-- first row -->
 <div class="row">
-
+    <div id="firstpar">
         <p><strong>Dog breeds</strong> are groups of closely related and visibly similar domestic dogs, (which are all of the subspecies <em>Canis
            lupus familiaris)</em>, having characteristic traits that are selected and maintained by humans and bred from a known foundation
            stock. The term dog breed is also used to refer to natural breeds or <em>landraces</em>, which arose through time in response
@@ -32,59 +54,126 @@
            different characteristics, personalities and jobs.  Dogs are used to herd sheep and hunt ducks.  Dogs protect and serve
            while others search and rescue.  Some come from royalty and some come from the farm.  But no matter what the job
            or where they live, they all have one thing in common...loyalty.</p>
+    </div>
 </div>
 
 <!-- second row -->
 <div class="row">
-    <div class="col-md-4 col-xs-6">
+    <div class="col-lg-3 col-sm-6">
         <p><img src="images/crested.jpg" title="Hairless Chinese Crested" width="250" height="200"></p>
         <h4>Hairless Chinese Crested</h4>
         <p><a href="#" class="btn btn-primary">Learn more...</a></p>
     </div>
 
-    <div class="col-md-4 col-xs-6">
+    <div class="col-lg-3 col-sm-6">
         <p><img src="images/german.jpg" title="German Shepherd" width="250" height="200"></p>
         <h4>German Shepherd</h4>
         <p><a href="#" class="btn btn-primary">Learn more...</a></p>
     </div>
 
-    <div class="col-md-4 col-xs-6">
+    <div class="col-lg-3 col-sm-6">
         <p><img src="images/pappy.jpeg" title="Papillon" width="250" height="200"></p>
         <h4>Papillon</h4>
         <p><a href="#" class="btn btn-primary">Learn more...</a></p>
     </div>
+
+    <div class="col-lg-3 col-sm-6">
+        <p><img src="images/weimaraner.jpg" title="Weimaraner" width="250" height="200"></p>
+        <h4>Weimaraner</h4>
+        <p><a href="#" class="btn btn-primary">Learn more...</a></p>
+    </div>
+
 </div>
 
 <!--third row -->
 <div class="row">
-    <div class="col-md-4 col-xs-6">
+    <div class="col-lg-3 col-sm-6">
         <p><img src="images/doberman.jpg" title="Doberman Pinscher" width="250" height="200"></p>
         <h4>Doberman Pinscher</h4>
         <p><a href="#" class="btn btn-primary">Learn more...</a></p>
     </div>
 
-    <div class="col-md-4 col-xs-6">
+    <div class="col-lg-3 col-sm-6">
         <p><img src="images/basset.jpg" title="Basset Hound" width="250" height="200"></p>
         <h4>Basset Hound</h4>
         <p><a href="#" class="btn btn-primary">Learn more...</a></p>
     </div>
 
-    <div class="col-md-4 col-xs-6">
+    <div class="col-lg-3 col-sm-6">
         <p><img src="images/dachshund.jpg" title="Dachshund" width="250" height="200"></p>
         <h4>Dachshund</h4>
         <p><a href="#" class="btn btn-primary">Learn more...</a></p>
     </div>
+
+    <div class="col-lg-3 col-sm-6">
+        <p><img src="images/dalmatian.jpg" title="Dalmatian" width="250" height="200"></p>
+        <h4>Dalmatian</h4>
+        <p><a href="#" class="btn btn-primary">Learn more...</a></p>
+    </div>
 </div>
 
-<!-- footer -->
+<div>
+    <h3>Groups of Dogs</h3>
+    <table id="table">
+        <tr>
+            <th>Working Dogs</th>
+            <td>Alaskan Malamute</td>
+            <td>Saint Bernard</td>
+            <td>Doberman</td>
+            <td>Rottweiler</td>
+        </tr>
+        <tr>
+            <th>Herding Dogs</th>
+            <td>Australian Shepherd</td>
+            <td>Border Collies</td>
+            <td>German Shepherds</td>
+            <td>Bouvier</td>
+        </tr>
+        <tr>
+            <th>Sporting Dogs</th>
+            <td>Golden Retrievers</td>
+            <td>Cocker Spaniel</td>
+            <td>English Setter</td>
+            <td>Weimaraner</td>
+        </tr>
+        <tr>
+            <th>Non-Sporting Dogs</th>
+            <td>Standard Poodle</td>
+            <td>Chow Chow</td>
+            <td>Dalmation</td>
+            <td>Lhasa Apso</td>
+        </tr>
+        <tr>
+            <th>Hounds</th>
+            <td>Greyhound</td>
+            <td>Basset Hound</td>
+            <td>Beagle</td>
+            <td>Afghan</td>
+        </tr>
+        <tr>
+            <th>Terriers</th>
+            <td>Jack Russell</td>
+            <td>Bull Terrier</td>
+            <td>Dandie Dinmont Terrier</td>
+            <td>Airedale</td>
+        </tr>
+        <tr>
+            <th>Toy Breeds</th>
+            <td>Brussels Griffon</td>
+            <td>Papillon</td>
+            <td>Maltese</td>
+            <td>Havanese</td>
+        </tr>
+    </table>
+</div>
 
-<footer class="row">Shannon R. Williams / DWS 2 / Project 02</footer>
 
 <!-- javascript -->
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js.bootstrap.min.js"> </script>
 
+</div>
 </body>
 
 </html>
