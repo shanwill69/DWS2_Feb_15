@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Love Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+</head>
+
+<body>
+
+<!-- header has a fixed position at the top center -->
+<header>
+    <h2 id="top"><p>Come find your true love</p></h2>
+</header>
+
+<div id="container">
+    <div id="first">
+        <h2>Give us some personal info...</h2>
+        <form>
+            <label class="label">first name</label>
+            <input class="box" name="firstName" type="text" placeholder="Shannon" required="required"
+                   title="please enter your first name" />
+
+            <label class="label">last name</label>
+            <input class="box" name="lastName" type="text" placeholder="Williams" required="required"
+                   title="this won't show in your public profile" />
+
+            <label class="label">city</label>
+            <input class="box" name="city" type="text" placeholder="Mount Juliet"
+                   title="this won't show in your public profile" />
+
+            <label class="label">state</label>
+            <input class="box" name="state" type="text" placeholder="TN" required="required"
+                   title="we need to know where to start looking" />
+
+            <label class="label">birthday</label>
+            <input class="box" name="date" type="date" required="required"
+                   title="come on...you're not that old" />
+
+            <label class="label">email</label>
+            <input class="box" name="email" type="text" placeholder="shanwill@fullsail.edu" required="required"
+                   title="no spam, we promise" />
+
+            <label class="label">phone</label>
+            <input class="box" name="phone" type="text" placeholder="123-345-5678" required="required"
+                   title="prank calls? no way!" />
+
+            <label class="label">Are you a...?</label>
+            <div class="box">
+                <input type="radio" value="male"  /> male
+                <input type="radio" value="female" class="left" checked /> female
+            </div>
+
+        </form>
+    </div>
+
+    <div id="second">
+        <h2>Tell us about yourself...</h2>
+        <form>
+
+            <label for="hair"  class="label">hair color?</label>
+            <select id="hair" class="drop">
+            <option>auburn > brown</option>
+            <option>blonde > dirty blonde</option>
+            <option>strawberry blonde > red</option>
+            <option>black</option>
+            <option>whatever mood I'm in</option>
+            <option>rainbow</option>
+            </select>
+
+            <label for="eyes"  class="label">eye color?</label>
+            <select id="eyes" class="drop">
+                <option>brown</option>
+                <option>blue</option>
+                <option>green</option>
+                <option>gray</option>
+                <option>hazel</option>
+            </select>
+
+            <label for="body"  class="label">body type?</label>
+            <select id="body" class="drop">
+                <option>athletic > muscular</option>
+                <option>stocky > not fat</option>
+                <option>thin > bony</option>
+                <option>plump > heavy</option>
+                <option>curvy > and proud</option>
+            </select>
+
+            <label for="height"  class="label">height?</label>
+            <select id="height" class="drop">
+                <option>4'0" > 4'9"</option>
+                <option>5'0" > 5'9"</option>
+                <option>6'0" > I'm a giant</option>
+            </select>
+
+            <label for="skin"  class="label">skin type?</label>
+            <select id="skin" class="drop">
+                <option>natural glow</option>
+                <option>pale > ghostly</option>
+                <option>dark > mysterious</option>
+                <option>fake tan</option>
+            </select>
+
+            <label for="personality"  class="label">personality?</label>
+            <select id="personality" class="drop">
+                <option>happy-go-lucky</option>
+                <option>flirty</option>
+                <option>bad to the bone</option>
+                <option>thoughtful</option>
+                <option>serious</option>
+            </select>
+
+            <label for="looking"  class="label">looking for?</label>
+            <select id="looking" class="drop">
+                <option>everlasting love</option>
+                <option>fun friend</option>
+                <option>casual dating</option>
+                <option>option for Friday night</option>
+                <option>just curious</option>
+            </select>
+
+            <label class="label">who am I?</label>
+            <textarea name="comments" class="box">50 words or less...</textarea>
+
+        </form>
+    </div>
+
+    <div id="third">
+        <h2>I'm looking for...</h2>
+        <form>
+
+        </form>
+    </div>
+</div>
+
+
+<img id="fixed" src="images/hearts.png" width="150" heigth="150" title="TRUE LOVE" />
+
+
+
+
+
+
+</body>
+</html>
