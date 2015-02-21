@@ -12,27 +12,27 @@
 
 <!-- header has a fixed position at the top center -->
 <header>
-    <h2 id="top"><p>Come find your true love</p></h2>
+    <h1 id="top"><em>Come find your true love</em></h1>
 </header>
 
 <div id="container">
     <div id="first">
-        <h2>Give us some personal info...</h2>
+        <h2>give us some personal info...</h2>
         <form>
             <label class="label">first name</label>
-            <input class="box" name="firstName" type="text" placeholder="Shannon" required="required"
+            <input class="box" name="firstName" type="text" required="required"
                    title="please enter your first name" />
 
             <label class="label">last name</label>
-            <input class="box" name="lastName" type="text" placeholder="Williams" required="required"
+            <input class="box" name="lastName" type="text" required="required"
                    title="this won't show in your public profile" />
 
             <label class="label">city</label>
-            <input class="box" name="city" type="text" placeholder="Mount Juliet"
+            <input class="box" name="city" type="text"
                    title="this won't show in your public profile" />
 
             <label class="label">state</label>
-            <input class="box" name="state" type="text" placeholder="TN" required="required"
+            <input class="box" name="state" type="text" required="required"
                    title="we need to know where to start looking" />
 
             <label class="label">birthday</label>
@@ -40,11 +40,11 @@
                    title="come on...you're not that old" />
 
             <label class="label">email</label>
-            <input class="box" name="email" type="text" placeholder="shanwill@fullsail.edu" required="required"
+            <input class="box" name="email" type="text" required="required"
                    title="no spam, we promise" />
 
             <label class="label">phone</label>
-            <input class="box" name="phone" type="text" placeholder="123-345-5678" required="required"
+            <input class="box" name="phone" type="text" required="required"
                    title="prank calls? no way!" />
 
             <label class="label">Are you a...?</label>
@@ -57,17 +57,79 @@
     </div>
 
     <div id="second">
-        <h2>Tell us about yourself...</h2>
+        <h2>tell us about yourself...</h2>
         <form>
 
-            <label for="hair"  class="label">hair color?</label>
-            <select id="hair" class="drop">
+            <label for="hair01"  class="label">hair color?</label>
+            <select id="hair01" class="drop">
             <option>auburn > brown</option>
             <option>blonde > dirty blonde</option>
             <option>strawberry blonde > red</option>
             <option>black</option>
             <option>whatever mood I'm in</option>
             <option>rainbow</option>
+            </select>
+
+            <label for="eyes01"  class="label">eye color?</label>
+            <select id="eyes01" class="drop">
+                <option>brown</option>
+                <option>blue</option>
+                <option>green</option>
+                <option>gray</option>
+                <option>hazel</option>
+            </select>
+
+            <label for="body01"  class="label">body type?</label>
+            <select id="body01" class="drop">
+                <option>athletic > muscular</option>
+                <option>stocky > not fat</option>
+                <option>thin > bony</option>
+                <option>plump > heavy</option>
+                <option>curvy > and proud</option>
+            </select>
+
+            <label for="height01"  class="label">height?</label>
+            <select id="height01" class="drop">
+                <option>4'0" > 4'9"</option>
+                <option>5'0" > 5'9"</option>
+                <option>6'0" > I'm a giant</option>
+            </select>
+
+            <label for="skin01"  class="label">skin type?</label>
+            <select id="skin01" class="drop">
+                <option>natural glow</option>
+                <option>pale > ghostly</option>
+                <option>dark > mysterious</option>
+                <option>fake tan</option>
+            </select>
+
+            <label for="personality01"  class="label">personality?</label>
+            <select id="personality01" class="drop">
+                <option>happy-go-lucky</option>
+                <option>flirty</option>
+                <option>bad to the bone</option>
+                <option>thoughtful</option>
+                <option>serious</option>
+            </select>
+
+            <label class="label">who am I?</label>
+            <textarea name="comments" class="box">50 words or less...</textarea>
+
+        </form>
+    </div>
+
+    <div id="third">
+        <h2>I'm looking for...</h2>
+        <form>
+
+            <label for="hair"  class="label">hair color?</label>
+            <select id="hair" class="drop">
+                <option>auburn > brown</option>
+                <option>blonde > dirty blonde</option>
+                <option>strawberry blonde > red</option>
+                <option>black</option>
+                <option>whatever mood I'm in</option>
+                <option>rainbow</option>
             </select>
 
             <label for="eyes"  class="label">eye color?</label>
@@ -121,27 +183,247 @@
                 <option>just curious</option>
             </select>
 
-            <label class="label">who am I?</label>
-            <textarea name="comments" class="box">50 words or less...</textarea>
+            <label class="label"></label>
+            <div class="box">
+                <input type="radio" value="male"  /> male
+                <input type="radio" value="female" class="left" checked /> female
+            </div>
+        </form>
+
+    </div>
+
+</div>
+
+<div id="container02">
+    <div id="fourth">
+        <h2>likes & dislikes...</h2>
+        <form>
+            <label class="label">cats, dogs</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">outdoors</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">indoors</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">music</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">movies</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">books</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">sports</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">dancing</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">exercise</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
 
         </form>
     </div>
 
-    <div id="third">
-        <h2>I'm looking for...</h2>
+    <div id="fifth">
+        <h2>wills & won'ts...</h2>
         <form>
 
+            <label class="label">ride motorcyle</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">skydive</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">scubadive</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">karaoke</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">comedy club</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">learn to dance</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">yoga</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">mountain biking</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">take naps</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
         </form>
+    </div>
+
+    <div id="sixth">
+        <h2>have & have not...</h2>
+        <form>
+
+            <label class="label">gone to church</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">been to jail</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">have kids</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">danced on a bar</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">traveled abroad</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">cheated / lied</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">been in love</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">attend college</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+            <label class="label">been married</label>
+            <div class="box">
+                <input type="radio" value="yes" checked />yes
+                <input type="radio" value="no" class="left" />no
+                <input type="radio" value="maybe" class="left" />maybe so
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+<div id="container03">
+    <div id="final">
+        <h2>let's sum it all up...</h2>
+
+        <label class="label">any last words...?</label>
+        <textarea name="comments" class="box"></textarea>
+
+        <label for="picture" class="label">send us a picture</label>
+        <input type="file" id="picture" class="box">
+
+        <div id="love">
+            <button type="submit">find love</button>
+        </div>
     </div>
 </div>
 
-
-<img id="fixed" src="images/hearts.png" width="150" heigth="150" title="TRUE LOVE" />
-
-
-
-
-
+<img id="fixed" src="images/hearts.png" width="150" alt="heart" title="TRUE LOVE" />
 
 </body>
 </html>

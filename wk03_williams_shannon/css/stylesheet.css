@@ -6,13 +6,14 @@ body {
     background: -o-linear-gradient(top, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 33%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 33%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* IE10+ */
     background: linear-gradient(to bottom, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 33%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea',GradientType=0 ); /* IE6-9 */
 }
 
-h2#top{
+h1#top{
     width: 100%;
-    height: 100%;
+    height: 50px;
     color: #c0c0c0;
+    font: 10em;
+    line-height: 1.5em;
     text-align: center;
     background-image: url("../images/dusk.png");
     border: 2px solid #bc0075;
@@ -31,6 +32,20 @@ img#fixed{
 }
 
 div#container{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+div#container02{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+div#container03{
     position: relative;
     width: 100%;
     margin: 0 auto;
@@ -69,7 +84,6 @@ div#second{
     background: -o-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* IE10+ */
     background: linear-gradient(to right,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1c659c5', endColorstr='#a849a3',GradientType=1 ); /* IE6-9 */
 
 }
 
@@ -89,6 +103,90 @@ div#third{
     background: linear-gradient(135deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* W3C */
 }
 
+div#fourth{
+    width: 31.777777777777777%;
+    margin: .5555555555555556%;
+    padding: .22222222222222222%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    border: 2px solid #bc0075;
+    background: #bc0075;
+    border-radius: 8px;
+    background: -moz-linear-gradient(left,  rgba(198,89,197,0.63) 41%, rgba(198,89,197,0.91) 86%, rgba(168,73,163,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(41%,rgba(198,89,197,0.63)), color-stop(86%,rgba(198,89,197,0.91)), color-stop(100%,rgba(168,73,163,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* W3C */
+}
+
+div#fifth{
+    width: 31.777777777777777%;
+    margin: .5555555555555556%;
+    padding: .22222222222222222%;
+    position: absolute;
+    top: 0;
+    left:  33.33333333333333%;;
+    border: 2px solid #bc0075;
+    border-radius: 8px;
+    background: -webkit-linear-gradient(-45deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -moz-linear-gradient(-45deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* FF3.6+ */
+    background: -o-linear-gradient(-45deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* Opera 11.10+ */
+    background: linear-gradient(135deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* W3C */
+}
+
+div#sixth{
+    width: 31.777777777777777%;
+    margin: .5555555555555556%;
+    padding: .22222222222222222%;
+    position: absolute;
+    top: 0;
+    left: 66.66666666666666%;
+    border: 2px solid #bc0075;
+    border-radius: 8px;
+    background: -moz-linear-gradient(left,  rgba(198,89,197,0.63) 41%, rgba(198,89,197,0.91) 86%, rgba(168,73,163,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(41%,rgba(198,89,197,0.63)), color-stop(86%,rgba(198,89,197,0.91)), color-stop(100%,rgba(168,73,163,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* W3C */
+}
+
+div#final{
+    width: 66.66666666666666%;
+    margin: .5555555555555556%;
+    padding: .22222222222222222%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #bc0075;
+    background: #bc0075;
+    border-radius: 8px;
+    background: -webkit-linear-gradient(-45deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -moz-linear-gradient(-45deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* FF3.6+ */
+    background: -o-linear-gradient(-45deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* Opera 11.10+ */
+    background: linear-gradient(135deg, rgba(252, 236, 252, 1) 0%, rgba(251, 166, 225, 1) 39%, rgba(253, 137, 215, 1) 66%, rgba(255, 124, 216, 1) 100%); /* W3C */
+}
+
+div#love{
+    width: 22.22222222222222%;
+    margin: .5555555555555556%;
+    padding: .22222222222222222%;
+    position: absolute;
+    top: 80%;
+    left: 100%;
+    border: 2px solid #bc0075;
+    background: #bc0075;
+    border-radius: 8px;
+    background: -moz-linear-gradient(left,  rgba(198,89,197,0.63) 41%, rgba(198,89,197,0.91) 86%, rgba(168,73,163,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(41%,rgba(198,89,197,0.63)), color-stop(86%,rgba(198,89,197,0.91)), color-stop(100%,rgba(168,73,163,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(198,89,197,0.63) 41%,rgba(198,89,197,0.91) 86%,rgba(168,73,163,1) 100%); /* W3C */
+}
 
 .label {
     width: 33.33333333333333%;
@@ -114,21 +212,42 @@ div#third{
     clear: right;
 }
 
-input, textarea{
+input, textarea, textarea.box{
     border: 1px solid #bc0075;
     border-radius: 4px;
 }
 
+
 input:focus{
+     background-color: #e890e6;
+     color: #fff;
+ }
+
+textarea:focus{
     background-color: #e890e6;
     color: #fff;
 }
 
-#buttons{
-    width: 30%;
-    float: left;
-    clear: right;
+textarea.box:focus{
+    background-color: #e890e6;
+    color: #fff;
 }
+
+input#picture{
+
+}
+
+div#love{
+    transition: width 1s;
+}
+
+div#love:hover{
+    width: 30%;
+    background-color: #FFC0CB;
+
+}
+
+
 footer {
     color: #c0c0c0;
     text-align: center;
