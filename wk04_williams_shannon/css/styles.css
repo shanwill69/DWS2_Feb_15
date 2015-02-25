@@ -1,0 +1,378 @@
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #bf47ec;
+	border-bottom: 1px dotted rgb(219,126,64);
+}
+
+a:hover {
+	color: #9f00e8;
+	border-bottom: 1px solid #7B798F;
+}
+
+.preview a {
+	display: block;
+	height:100%;
+}
+
+.preview a:hover {
+	border: none;
+}
+
+a.phone {
+	border: none;
+	color: inherit;
+}
+
+a.phone:hover {
+	border: none;
+	color: inherit;
+	cursor: default;
+}
+
+html {
+	background: rgba(83, 56, 107, .5);
+}
+
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	position: relative;
+	background: #fff;
+	color: #4c3769;
+	font-weight:normal;
+	font-style:normal;
+}
+
+#mainNav h2 {
+	display: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+/*Basic layout styles -----------------------------------------------------------------------------------------------------------*/
+
+body {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header {
+	height: 165px;
+}
+
+article {
+	float: left;
+	width: 850px;
+	padding-left: 50px;
+}
+
+aside {
+	float: right;
+	width: 280px;
+	padding-right: 50px;
+}
+
+#pageFooter {
+	clear:both;
+	overflow:hidden;
+	height: 150px;
+}
+
+/* Content region styles -----------------------------------------------------------------------------------------------------------*/
+
+/*header styles*/
+header {
+	background: #4c3769;
+	padding-top: 1px;
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 50px;
+}
+
+header h1 {
+	font-size: 3.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 100px;
+	line-height: 165px;
+	margin-right: .5em;
+	float: left;
+	padding-left: 110px;
+	background: url(../../../Floats%20exercise%20files/Ex_Files_CSS_Page_Layout/Exercise%20Files/Chapter_03/03_10/finished_files/_images/desolve_logo.png) no-repeat left center;
+	color: #fff;
+}
+
+header h2 {
+	font-style: italic;
+	font-weight:normal;
+	font-size: 1.4em;
+	color: #fff;
+	float: left;
+	text-transform: lowercase;
+	letter-spacing:.1em;
+	line-height: 165px;
+}
+header a, header a:hover {
+	color: #fff;
+	border: none;
+}
+
+/*nav styles*/
+#mainNav {
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 50px;
+}
+
+#mainNav li {
+	float: left;
+	margin-right: 3.6em;
+}
+
+#mainNav a {
+	text-transform: uppercase;
+	display: block;
+	color: rgb(76, 67, 65);
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#mainNav a:hover {
+	color: #bf47ec;
+}
+
+#mainNav a.current {
+	color: #4c3769;
+	cursor: default;
+}
+
+#mainNav a em {
+	font-size: .8em;
+	display: block;
+	text-transform: lowercase;
+	color: #4c3769;
+}
+
+/*banner styles*/
+.banner {
+	height: 350px;
+	padding-left: 50px;
+    padding-right: 2em
+	overflow: hidden;
+    background: url(../images/countrySunset.jpg) no-repeat;
+	margin-bottom: 4em;
+    margin-left: 2em;
+	position: relative;
+}
+
+.banner h1 {
+	font-size: 2.2em;
+	color: #fff;
+	padding-top: 290px;
+	letter-spacing:.1em;
+	text-transform: uppercase;
+}
+
+.banner p {
+	width: 300px;
+	padding: 15px 25px 0;
+	height: 335px;
+	font-size: 1.2em;
+	color: #fff;
+    text-align: justify;
+	background: rgba(123, 121, 143, .8);
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+/*article styles*/
+article section {
+	border-bottom: 2px solid #4A3666;
+	margin-bottom: 1em;
+}
+
+article h1, article h2, article h3 {
+	font-family: Arial, Georgia, Times, serif;
+}
+
+article > h1 {
+	font-size: 1.8em;
+    color: #53386B;
+}
+
+article h2 {
+	font-size: 1.4em;
+    color: #53386B;
+    padding-left: 1.5em;
+}
+
+article h2 a {
+	color: #53386B;
+	border: none;
+}
+
+article p {
+	font-size:1em;
+	margin: 1.2em 0;
+}
+
+#hours{
+    width: 50%;
+    margin-bottom: 2em;
+    padding: 0 2em 1em 2em;
+    border-top: 1px solid #53386B;
+    border-bottom: 1px solid #53386B
+}
+
+td{
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+
+tr.even{
+    background: #BFBBEC;
+}
+
+
+.catering {
+    background: rgba(123, 121, 143, .8);
+    float: left;
+    margin-right: 50px;
+    width: 360px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    font-size: 90%;
+    color: #fff;
+}
+
+.catering + .catering {
+    margin-right: 0;
+}
+.catering h2 {
+	margin-top: 0;
+}
+
+/*page-specific main content styles*/
+#home h1 {
+	background-position: right -790px;
+	padding: 20px 0 5px;
+}
+
+#contact h1 {
+	background-position: right -395px;
+	padding: 20px 0 5px;
+}
+
+article .preview {
+	height: 250px;
+	clear:both;
+}
+article h2 a:hover {
+	color: rgb(123, 121, 143);
+	border: none;
+}
+
+label {
+	display:block;
+	font-size: 1em;
+	margin: .8em 0 0;
+}
+
+input[type="text"], input[type="email"], input[type="url"], textarea {
+	width: 250px;
+}
+
+input[type="submit"] {
+	display:block;
+	margin: 1em 0;
+}
+
+.inline {
+	display: inline;
+}
+
+fieldset div {
+	width: 250px;
+}
+
+/*aside styles*/
+aside h2 {
+	font-family: Arial, Times, serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 1em;
+    padding-left: 10em;
+	clear: both;
+}
+
+aside #pictures {
+	margin-bottom: 2em;
+    padding-left: 10em;
+}
+
+#menu {
+	display:block;
+	padding-left: 11.5em;
+
+	margin-bottom: 1em;
+}
+
+/*footer styles*/
+#pageFooter {
+	background: rgba(74, 54, 102, .7);
+	padding-top: 1.5em;
+}
+
+input[type="email"] {
+	width: 20em;
+    border-radius: .5em;
+}
+
+input#join{
+    transition: width 1s;
+}
+input#join:hover{
+    transition: width 30%;
+
+}
+
+
+#pageFooter label {
+	display: block;
+	font-size: 1em;
+}
+
+#pageFooter form {
+	float: left;
+	margin-left: 5em;
+	display: inline;
+}
+
