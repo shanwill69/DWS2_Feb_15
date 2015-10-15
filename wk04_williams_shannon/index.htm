@@ -5,11 +5,12 @@
     <title>Momma's Cafe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
 </head>
 
 <body>
-
+  <!-- header -->
 <header>
 
     <h1>Momma's Cafe</h1>
@@ -17,18 +18,25 @@
 
 </header>
 
+    <!-- navigation inline -->
 <nav id="mainNav">
   <h2>Site navigation</h2>
-  <ul>
-    <li><a href="#menu" title="good food" class="menu">menu <em>melts in your mouth</em></a> </li>
+  <ul>                      <!--navigation links to other parts of the page -->
+    <li><a href="#menu"  title="good food" class="menu">menu <em>melts in your mouth</em></a> </li>
     <li><a href="prices" title="good value" class="prices">price list <em>good value</em></a></li>
     <li><a href="#history" title="who we are" class="history">history <em>who are we?</em></a></li>
     <li><a href="shop" title="buy some stuff" class="shop">shop <em>buy our stuff!</em></a></li>
   </ul>
 </nav>
 
-<section id="content">
+    <!--baner includes video, article and aside -->
+<section>
   <div class="banner">
+        <!--video for beef stew -->
+      <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oiMSuLOjFyE" frameborder="0" allowfullscreen></iframe>
+      </div>
+
 
     <p>Thanks for stopping by Momma's Cafe.  We prepare made-to-order, old-style, home cooking.  We have daily specials
         (see below) and homemade desserts.  Momma's Cafe prides itself on being a farm to table restaurant, using only
@@ -39,7 +47,7 @@
     <h1>come on in and sit down!</h1>
       <h2>hours of operation</h2>
     <table id="hours">
-
+            <!-- table with hours of operation -->
         <tr class="even">
             <td>Sunday</td>
             <td>6:00am</td>
@@ -51,7 +59,7 @@
             <td>6:00am</td>
             <td>8:00pm</td>
         </tr>
-
+                <!--even rows are different colors -->
         <tr class="even">
             <td>Tuesday</td>
             <td>6:00am</td>
@@ -98,8 +106,8 @@
     <section class="catering">
         <h2 id="menu">daily specials</h2>
 
-            <ul>
-                <p></p>
+            <ul>            <!-- list of daily specials -->
+            <li></li>
             <li>Sunday <span>twice fried chicken and dressing</span></li>
             <li>Monday <span>chili in a cornbread bowl</span></li>
             <li>Tuesday <span>pot roast and potatoes</span></li>
@@ -117,26 +125,26 @@
     </section>
 
   </article>
-
+                <!-- images from our menu -->
   <aside>
       <h2>menu</h2>
       <ul id="pictures">
-        <li><img src="images/hamburger.jpg" alt="burgers" title="custom hamburgers" width="100" /></li>
-        <li><img src="images/plate.jpg" alt="country cooking" title="country cooking" width="100" /></li>
-        <li><img src="images/spaghetti.jpg" alt="spaghetti" title="spaghetti" width="100" /></li>
-        <li><img src="images/sandwich.jpg" alt="sandwich" title="sandwich" width="100" /></li>
-        <li><img src="images/breakfast.jpg" alt="breakfast" title="breakfast" width="100" /></li>
-        <li><img src="images/cookies.jpg" alt="cookies" title="cookies" width="100" /></li>
-        <li><img src="images/cake.jpg" alt="cake" title="cake" width="100"/></li>
+        <li><img src="images/hamburger.jpg" alt="burgers" title="custom hamburgers" width="100" class="pix" /></li>
+        <li><img src="images/plate.jpg" alt="country cooking" title="country cooking" width="100" class="pix" /></li>
+        <li><img src="images/spaghetti.jpg" alt="spaghetti" title="spaghetti" width="100" class="pix" /></li>
+        <li><img src="images/sandwich.jpg" alt="sandwich" title="sandwich" width="100" class="pix" /></li>
+        <li><img src="images/breakfast.jpg" alt="breakfast" title="breakfast" width="100" class="pix" /></li>
+        <li><img src="images/cookies.jpg" alt="cookies" title="cookies" width="100" class="pix" /></li>
+        <li><img src="images/cake.jpg" alt="cake" title="cake" width="100" class="pix"/></li>
       </ul>
   </aside>
 </section>
-
+            <!-- footer with email subscribe -->
 <footer id="pageFooter">
-  <form action="">
+  <form action="http://www.example.com/subscribe.php">
     <label for="email">sign up for special discounts</label>
     <input id="email" type="email" placeholder="email" title="email">
-    <input id="join" type="submit" class="submit" name="join">
+    <button type="submit">join us</button>
   </form>
 
 </footer>
